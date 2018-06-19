@@ -1,0 +1,17 @@
+{
+   "@context" : "plr://PUBLIC/ontologies/menuContext.jsonld",
+   "ontology" : {
+      "restriction" :
+         {
+            "@id" : "DG",
+            "defines" : [
+               {
+                  "#Entity" : "i"
+               }
+            ],
+            "label" : {
+               "" : "Discourse Graph",
+               "ja" : "談話グラフ"
+            }
+         }
+   }

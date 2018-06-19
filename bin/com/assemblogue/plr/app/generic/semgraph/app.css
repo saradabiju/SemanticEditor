@@ -1,0 +1,38 @@
+.scene {
+    -fx-font: 12pt "Amble Cn";
+    -fx-accent: #0093ff;
+    -fx-base: #d0d0d0;
+    -fx-background: #f4f4f4;
+    -fx-control-inner-background: white;
+    -fx-focus-color: #0093ff;
+    -fx-dark-text-color: black;
+    -fx-mid-text-color: #292929;
+    -fx-light-text-color: white;
+}
+
+ToolBar HBox {
+    -fx-spacing: 5;
+}
+
+ToolBar Button {
+    -fx-pref-width: 24;
+    -fx-pref-height: 24;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity: 0.7;
+    -fx-focus-traversable: false;
+}
+
+ToolBar Button:disabled {
+    -fx-opacity: 0.35;
+}
+
+ToolBar Button:hover {
+    -fx-opacity: 0.9;
+}
+
+ToolBar Separator {
+    -fx-orientation: vertical;
+    -fx-padding: 0 0 0 4;
+}
+
